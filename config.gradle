@@ -9,10 +9,6 @@ ext {
             testInstrumentationRunner: 'android.support.test.runner.AndroidJUnitRunner'
     ]
 
-    dependVerison = [
-            support: '27.1.1'
-    ]
-
     dependencies = [
             //android-support
             "appcompact-v7"                    : 'com.android.support:appcompat-v7:27.1.1',
