@@ -19,7 +19,27 @@
 
 <!--</LinearLayout>-->
 
-<com.simon.study.scroll.ScrollLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<!--<com.simon.study.scroll.ScrollLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:id="@+id/parentLayout"-->
+    <!--android:orientation="horizontal">-->
+
+    <!--<Button-->
+        <!--android:id="@+id/btnScrollTo"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="scrollTo" />-->
+
+    <!--<Button-->
+        <!--android:id="@+id/btnScrollBy"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="scrollBy" />-->
+
+<!--</com.simon.study.scroll.ScrollLinearLayout>-->
+
+<com.simon.study.scroll.SingleViewScrollLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:id="@+id/parentLayout"
@@ -37,4 +57,4 @@
         android:layout_height="wrap_content"
         android:text="scrollBy" />
 
-</com.simon.study.scroll.ScrollLinearLayout>
+</com.simon.study.scroll.SingleViewScrollLinearLayout>

@@ -14,6 +14,10 @@ import java.util.jar.Attributes
  *   date 2018/6/22
  *   description:
  *   version code 1.0
+ *
+ *   1、初始化 Scroller 类的对象：Scroller scroller = new Scroller(context)
+2、重写要滑动的 View 的 computeScroll() 方法：
+3、调用 startScroll(int startX, int startY, int dx, int dy)方法开始 View 的滑动，参数分别为开始的位置和横纵方向滑动的位移，这个方法还有一个重载版本，多了一个参数用于控制滑动时间
  */
 class ScrollLinearLayout : LinearLayout {
 
