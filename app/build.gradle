@@ -68,6 +68,11 @@ dependencies {
     implementation rootProject.ext.dependencies['glide']
     implementation rootProject.ext.dependencies['fastjson']
     implementation rootProject.ext.dependencies['kotlin']
+    implementation rootProject.ext.dependencies['kotlin']
+    implementation rootProject.ext.dependencies['rxjava']
+    implementation rootProject.ext.dependencies['rxandroid']
+    implementation rootProject.ext.dependencies['retrofit']
+    implementation rootProject.ext.dependencies['converter-gson']
 }
 repositories {
     mavenCentral()

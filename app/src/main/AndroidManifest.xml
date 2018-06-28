@@ -12,8 +12,10 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <!--<activity android:name=".MainActivity">-->
-        <activity android:name=".scroll.ScrollAct">
+        <!--<activity android:name=".scroll.ScrollAct">-->
         <!--<activity android:name=".webview.WebViewAct">-->
+        <!--<activity android:name=".view.wordmagnifier.MainActivity">-->
+        <activity android:name=".view.word_magnifier.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

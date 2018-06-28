@@ -26,12 +26,12 @@ public class ExampleUnitTest {
 
 //        Log.d("tag", StringEscapeUtils.unescapeHtml4(str));
 
-        byte a;
-        int b = 298;
-        a = (byte) b;
-
-        System.out.println(a);
-        System.out.println(b);
+//        byte a;
+//        int b = 298;
+//        a = (byte) b;
+//
+//        System.out.println(a);
+//        System.out.println(b);
 
     }
 

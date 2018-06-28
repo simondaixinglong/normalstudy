@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="#00000000">
+
+    <RelativeLayout
+        android:id="@+id/glass_view"
+        android:layout_width="@dimen/glass_view_width"
+        android:layout_height="@dimen/glass_view_height"
+        android:background="@drawable/magnifying_glass_bg"
+        android:paddingLeft="@dimen/glass_view_padding"
+        android:paddingTop="@dimen/glass_view_padding">
+
+        <ImageView
+            android:id="@+id/zoom_view"
+            android:layout_width="@dimen/zoom_view_width"
+            android:layout_height="@dimen/zoom_view_height"
+            android:layout_margin="@dimen/zoom_view_padding"
+            android:scaleType="fitXY" />
+    </RelativeLayout>
+</RelativeLayout>
