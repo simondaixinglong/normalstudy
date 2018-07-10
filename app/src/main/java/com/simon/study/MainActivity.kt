@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        tvName.text = "aaaa"
+        tvName.text = "aaa"
     }
 
     override fun onClick(v: View?) {

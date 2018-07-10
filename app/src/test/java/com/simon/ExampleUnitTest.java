@@ -33,6 +33,8 @@ public class ExampleUnitTest {
 //        System.out.println(a);
 //        System.out.println(b);
 
+        final byte[] data = new byte[30];
+
     }
 
 }

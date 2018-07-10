@@ -3,7 +3,7 @@ package com.simon.study.view.word_magnifier;
 import android.app.Activity;
 import android.os.Bundle;
 import com.simon.study.R;
-import com.simon.study.view.word_magnifier.utils.DisplayUtils;
+import com.simon.study.utils.DisplayUtils;
 
 public class MainActivity extends Activity  {
     @Override

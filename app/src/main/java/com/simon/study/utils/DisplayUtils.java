@@ -1,4 +1,4 @@
-package com.simon.study.view.word_magnifier.utils;
+package com.simon.study.utils;
 
 import android.content.Context;
 import android.util.DisplayMetrics;

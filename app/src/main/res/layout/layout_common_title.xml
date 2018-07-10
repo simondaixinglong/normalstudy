@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_base_title_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:id="@+id/ll_base_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#ff0dc0f8"
+        android:orientation="horizontal">
+
+
+        <ImageButton
+            android:id="@+id/ib_base_back_icon"
+            android:layout_width="@dimen/d50"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:paddingBottom="@dimen/d14"
+            android:paddingLeft="@dimen/d5"
+            android:paddingTop="@dimen/d14"
+            android:scaleType="fitCenter"
+            android:src="@drawable/back_icon" />
+
+        <TextView
+            android:id="@+id/tv_base_title_left"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:maxLength="3"
+            android:textColor="@color/color_C9C9C9"
+            android:textSize="@dimen/d18"
+            android:visibility="gone" />
+
+
+        <TextView
+            android:id="@+id/tv_base_title_title"
+            android:layout_width="@dimen/d0"
+            android:layout_height="match_parent"
+            android:layout_weight="8"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:paddingLeft="@dimen/d10"
+            android:paddingRight="@dimen/d10"
+            android:singleLine="true"
+            android:textColor="@color/color_C9C9C9"
+            android:textSize="@dimen/d18" />
+
+
+        <ImageButton
+            android:id="@+id/ib_base_share_icon"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:background="@null"
+            android:paddingBottom="@dimen/d14"
+            android:paddingLeft="@dimen/d5"
+            android:paddingTop="@dimen/d14"
+            android:visibility="gone"
+            android:scaleType="fitCenter"/>
+
+        <TextView
+            android:id="@+id/tv_base_title_right"
+            android:layout_width="@dimen/d0"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:maxLength="3"
+            android:textColor="@color/color_C9C9C9"
+            android:textSize="@dimen/d18"
+            android:visibility="invisible" />
+
+    </LinearLayout>
+
+</RelativeLayout>
