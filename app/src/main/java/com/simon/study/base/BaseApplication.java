@@ -2,6 +2,8 @@ package com.simon.study.base;
 
 import android.app.Application;
 
+import org.litepal.LitePalApplication;
+
 
 /**
  * created by simon
@@ -9,7 +11,7 @@ import android.app.Application;
  * version code 1.0
  * description:所有module中Application的基类，用于加载或初始化统一的资源库
  */
-public class BaseApplication extends Application {
+public class BaseApplication extends LitePalApplication {
 
     private static BaseApplication applicationInstance;
 
