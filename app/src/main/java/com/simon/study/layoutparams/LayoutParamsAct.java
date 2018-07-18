@@ -46,6 +46,7 @@ public class LayoutParamsAct extends AppCompatActivity {
         RelativeLayout.LayoutParams layoutParams1 = new RelativeLayout.LayoutParams(RelativeLayout.LayoutParams.WRAP_CONTENT, RelativeLayout.LayoutParams.WRAP_CONTENT);
         layoutParams1.addRule(RelativeLayout.ALIGN_PARENT_RIGHT);
 
+
     }
 
 
