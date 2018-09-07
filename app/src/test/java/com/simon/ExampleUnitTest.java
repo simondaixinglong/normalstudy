@@ -1,5 +1,7 @@
 package com.simon;
 
+import com.alibaba.fastjson.JSON;
+
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
@@ -33,7 +35,8 @@ public class ExampleUnitTest {
 //        System.out.println(a);
 //        System.out.println(b);
 
-        final byte[] data = new byte[30];
+//        final byte[] data = new byte[30];
+
 
     }
 

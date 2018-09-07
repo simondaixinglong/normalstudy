@@ -3,6 +3,8 @@
     package="com.simon.study">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
 
     <application
         android:name=".base.BaseApplication"
@@ -17,7 +19,8 @@
         <!--<activity android:name=".webview.WebViewAct">-->
         <!--<activity android:name=".view.wordmagnifier.MainActivity">-->
         <!--<activity android:name=".view.word_magnifier.MainActivity">-->
-        <activity android:name=".layoutparams.LayoutParamsAct">
+        <!--<activity android:name=".layoutparams.LayoutParamsAct">-->
+        <activity android:name=".ui.TabLayoutAndViewPager">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
